@@ -1,0 +1,113 @@
+body {
+	display: block;
+	background-color: #ffffff;
+}
+
+.nav_links li {
+	padding: 20px 9px;
+	margin: 0;
+	display: inline;
+	font-family: Arial;
+	z-index: 1;
+	float: right;
+	text-align: right;
+}
+
+#sign_in_btn {
+	
+
+	float: right;
+	display: flex;
+	text-align: center;
+	background-color: #0066FF;
+	border-radius: 2px;
+	border: 2px solid #0066FF;
+	margin: 10px 30px;
+	padding: 10px;
+	height: 6px;
+	width: 35px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 10px;
+	
+}
+
+.sign_in_btn {
+	float: right;
+	padding: auto;
+	margin: auto;
+	font-size: 12px;
+}
+
+
+img {
+	display: block;
+	clear: both;
+	width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#srch {
+	width: 550px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#btn {
+	width: 110px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+.google {
+
+	clear: both;
+	display: block;
+	padding: 150px;
+}
+
+footer {
+	clear: both;
+	position: fixed;
+	background-color:#E6E6E6;
+	width: 100%;
+	height: 2.5em;
+	color: #545454;
+	font-weight: bold;
+	border-radius: 2px;
+	border: 1px solid #C1C1C1;
+	padding: 5px;
+	margin-top: 170px;
+}
+
+footer ul li {
+	display: inline;
+	margin-top: 150px;
+}
+
+.left li {
+	display: inline;
+	float: left;
+	padding: 1em;
+	font-family: Helvetica;
+	color: #545454;
+	font-weight: 500;
+	height: 2.5em;
+	margin: 0;
+	z-index: -1;
+}
+
+.right li {
+	display: inline;
+	padding: 1em;
+	float: right;
+	font-family: Helvetica;
+	color: #545454;
+	font-weight: 500;
+	height: 2.5em;
+	margin: 0;
+	z-index: -1;
+}
